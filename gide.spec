@@ -13,6 +13,7 @@ BuildRequires:	xpm-devel
 BuildRequires:	gnome-libs-devel
 BuildRequires:	guile-devel
 BuildRequires:	gettext-devel
+BuildRequires:	libglade-devel >= 0.11
 URL:		http://gide.pn.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gIDE
