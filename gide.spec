@@ -5,9 +5,6 @@ Version:	0.3.0
 Release:	5
 License:	GPL
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	http://gide.pn.org/download/%{name}-%{version}.tar.gz
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	gnome-libs-devel
