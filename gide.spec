@@ -7,15 +7,15 @@ License:	GPL
 Group:		Development/Tools
 Source0:	http://gide.pn.org/download/%{name}-%{version}.tar.gz
 Patch0:		%{name}-am_fix.patch
+URL:		http://gide.pn.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gnome-libs-devel
 BuildRequires:	guile-devel >= 1.4
-BuildRequires:	libglade-devel >= 0.11
+BuildRequires:	libglade-gnome-devel >= 0.11
 BuildRequires:	libltdl-devel
 BuildRequires:	libtool
-URL:		http://gide.pn.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gIDE
 
