@@ -2,7 +2,7 @@ Summary:	Gtk Integrated Development Environment for C
 Summary(pl):	Zintegrowane ¶rodowisko developersje dla C napisane w Gtk
 Name:		gide
 Version:	0.3.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Group(fr):	Development/Outils
@@ -11,7 +11,7 @@ Source0:	http://gide.pn.org/download/%{name}-%{version}.tar.gz
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	xpm-devel
 BuildRequires:	gnome-libs-devel
-BuildRequires:	guile-devel
+BuildRequires:	guile-devel >= 1.4.1
 BuildRequires:	gettext-devel
 BuildRequires:	libglade-devel >= 0.11
 URL:		http://gide.pn.org/
