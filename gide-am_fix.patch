@@ -1,0 +1,11 @@
+--- gide-0.3.0/src/Makefile.am~	Thu Aug  1 14:31:42 2002
++++ gide-0.3.0/src/Makefile.am	Thu Aug  1 14:31:42 2002
+@@ -12,7 +12,7 @@
+ CFLAGS += \
+ 	-DGNOMELOCALEDIR=\""$(datadir)/locale"\" \
+ 	-DGIDE_CFGDIR=\"$(pkgdatadir)\" \
+-	-DGIDE_PLUGINDIR=\"$(libdir)/gide/plugins/$(VERSION)/\"
++	-DGIDE_PLUGINDIR=\"$(libdir)/gide/plugins/$(VERSION)/\" \
+ 	$(EXTRA_GNOME_CFLAGS)
+ 
+ INCLUDES = \
