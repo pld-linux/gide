@@ -2,7 +2,7 @@ Summary:	Gtk Integrated Development Environment for C
 Summary(pl):	Zintegrowane ¶rodowisko developersje dla C napisane w Gtk
 Name:		gide
 Version:	0.3.0
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Tools
 Group(de):	Entwicklung/Werkzeuge
