@@ -2,9 +2,10 @@ Summary:	Gtk Integrated Development Environment for C
 Summary(pl):	Zintegrowane ¶rodowisko developersje dla C napisane w Gtk
 Name:		gide
 Version:	0.3.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Tools
+Group(de):	Entwicklung/Werkzeuge
 Group(fr):	Development/Outils
 Group(pl):	Programowanie/Narzêdzia
 Source0:	http://gide.pn.org/download/%{name}-%{version}.tar.gz
@@ -34,7 +35,6 @@ pisania programów w C.
 
 %build
 gettextize --copy --force
-LDFLAGS="-s"; export LDFLAGS
 %configure
 %{__make}
 
@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	Developmentdir=%{_applnkdir}/Development
 
-gzip -9nf README ChangeLog $RPM_BUILD_ROOT%{_mandir}/man1/*
+gzip -9nf README ChangeLog
 
 %find_lang %{name}
 
