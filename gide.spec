@@ -6,6 +6,7 @@ Release:	6
 License:	GPL
 Group:		Development/Tools
 Source0:	http://gide.pn.org/download/%{name}-%{version}.tar.gz
+# Source0-md5:	b7195eef0c3155ed239adef252428ffc
 Patch0:		%{name}-am_fix.patch
 URL:		http://gide.pn.org/
 BuildRequires:	autoconf
