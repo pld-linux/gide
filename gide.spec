@@ -57,5 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Development/*
 %{_datadir}/gide
-%{_datadir}/pixmaps/*
+%{_pixmapsdir}/*
 %{_mandir}/man1/*
