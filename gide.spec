@@ -38,7 +38,7 @@ pisania programów w C.
 rm -f missing acinclude.m4
 %{__gettextize}
 %{__libtoolize}
-aclocal -I %{_aclocaldir}/gnome
+%{__aclocal} -I %{_aclocaldir}/gnome
 %{__autoconf}
 %{__automake}
 %configure \
