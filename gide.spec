@@ -30,7 +30,7 @@ pisania programów w C.
 %setup -q
 
 %build
-gettextize --copy --force
+%{__gettextize}
 %configure
 %{__make}
 
