@@ -10,7 +10,6 @@ Group(fr):	Development/Outils
 Group(pl):	Programowanie/Narzêdzia
 Source0:	http://gide.pn.org/download/%{name}-%{version}.tar.gz
 BuildRequires:	gtk+-devel >= 1.2.0
-BuildRequires:	xpm-devel
 BuildRequires:	gnome-libs-devel
 BuildRequires:	guile-devel >= 1.4
 BuildRequires:	gettext-devel
