@@ -1,5 +1,5 @@
 Summary:	GTK+ Integrated Development Environment for C
-Summary(pl):	Zintegrowane ¶rodowisko developersje dla C napisane w GTK+
+Summary(pl.UTF-8):   Zintegrowane Å›rodowisko developersje dla C napisane w GTK+
 Name:		gide
 Version:	0.3.0
 Release:	6
@@ -25,9 +25,9 @@ Obsoletes:	gIDE
 Gide is a GTK+-based Integrated Development Environment for the C
 programming language.
 
-%description -l pl
-Gide jest bazuj±cym na GTK+ zintegrowanym ¶rodowiskiem programisty do
-pisania programów w C.
+%description -l pl.UTF-8
+Gide jest bazujÄ…cym na GTK+ zintegrowanym Å›rodowiskiem programisty do
+pisania programÃ³w w C.
 
 %prep
 %setup -q
