@@ -1,5 +1,5 @@
 Summary:	GTK+ Integrated Development Environment for C
-Summary(pl.UTF-8):   Zintegrowane środowisko developersje dla C napisane w GTK+
+Summary(pl.UTF-8):	Zintegrowane środowisko developersje dla C napisane w GTK+
 Name:		gide
 Version:	0.3.0
 Release:	6
